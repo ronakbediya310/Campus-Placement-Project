@@ -3,6 +3,5 @@ matplotlib
 numpy
 pandas
 seaborn
-keras
-
+tensorflow
 -e .
