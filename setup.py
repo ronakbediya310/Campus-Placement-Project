@@ -16,7 +16,7 @@ def get_requirements(filepath)->List[str]:
 setup(
     name='Campus Placement Prediction',
     version='0.0.1',
-    Author='Ronak Bediya',
+    author='Ronak Bediya',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
         
