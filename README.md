@@ -55,26 +55,12 @@ Explain how logging is implemented in the project and where log files can be fou
 
 ## Folder Structure:
 
-src/
-|-- components/
-|   |-- model_trainer.py
-|   |-- predictor.py
-|-- exception/
-|   |-- __init__.py
-|   |-- custom_exception.py
-|-- pipelines/
-|   |-- prediction_pipeline.py
-|   |-- training_pipeline.py
-|-- utils/
-|   |-- __init__.py
-|   |-- logger.py
-|   |-- load_object.py
-|-- app.py
-|-- requirements.txt
-|-- artifacts/
-|-- templates/
-|   |-- index.html
-|   |-- form.html
-|-- README.md
+![folder structure](image-1.png)
+
+
+## Implementation:
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 ## Author:Ronak Bediya
