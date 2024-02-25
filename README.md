@@ -24,8 +24,7 @@ This Flask web application leverages machine learning models to predict campus p
    git clone https://github.com/ronakbediya310/Campus-Placement-Project.git
 
 2. **Change into the project directory:**
-
-  cd campus-placement-prediction
+       cd campus-placement-prediction
 
 3. **install dependencies**
   pip install -r rquirements.txr
@@ -34,6 +33,8 @@ This Flask web application leverages machine learning models to predict campus p
   python  app.py
 
 5. **Open your browser and navigate to http://localhost:5000.**
+
+
 
 **Usage:**
 Enter the required details in the prediction form.
