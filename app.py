@@ -41,8 +41,8 @@ def predict_datapoint():
             if result == 1:
                 conclusion="Congratulations! You will be placed All the best"
             else :
-                conclusion="need improvement on Your Skills  All the best"
-            return render_template('form.html', final_result=conclusion)
+                conclusion="Need improvement on your skills.Work hard champ! All the best"
+            return render_template('result.html', final_result=conclusion)
         except Exception as e:
             return jsonify({"error": str(e)})
 
